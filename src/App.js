@@ -10,7 +10,6 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
 import Navbar from "./components/Navbar/Navbar"
 
 function App() {

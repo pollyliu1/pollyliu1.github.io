@@ -1,3 +1,4 @@
+
 .NavbarItems {
     background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100%);
     height: 80px;
@@ -14,11 +15,6 @@
     cursor: pointer;
 }
 
-.fa-react {
-    margin-left: 0.5rem;
-    font-size: 1.6rem;
-}
-
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -33,7 +29,7 @@
 .nav-links {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 1 rem;
+    padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
@@ -43,6 +39,10 @@
 }
 
 .fa-bars {
+    color: #fff;
+}
+
+.fa-times {
     color: #fff;
 }
 
@@ -59,7 +59,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 500px;
+        height: 504px;
         position: absolute;
         top: 80px;
         left: -100%;
@@ -79,7 +79,7 @@
         text-align: center;
         padding: 2rem;
         width: 100%;
-        display: trable;
+        display: table;
     }
 
     .nav-links:hover {
@@ -89,13 +89,13 @@
 
     .navbar-logo {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 5;
+        left: 30px;
         transform: translate(25%, 50%,);
     }
 
     .menu-icon {
-        display:block;
+        display: block;
         position: absolute;
         top: 0;
         right: 0;
@@ -104,7 +104,7 @@
         cursor: pointer;
     }
 
-    .fa-timers {
+    .fa-times {
         color: #fff;
         font-size: 2rem;
     }
