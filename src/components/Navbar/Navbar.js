@@ -1,6 +1,7 @@
 import React from 'react'
 import { MenuItems } from "./MenuItems"
 import "./Navbar.css"
+import { Button } from "../Button"
 
 class Navbar extends React.Component {
   state = { clicked: false }
@@ -14,7 +15,7 @@ class Navbar extends React.Component {
       <nav className="NavbarItems">
         <h1 className="navbar-logo">React<i className="fab fa-react"></i></h1>
         <div className="menu-icon" onClick={this.handleClick}>
-          <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i> {/* This needs fontawesome to work */}
+          <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i> {/* This uses fontawesome for icons */}
         </div>
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
           {MenuItems.map((item, index) => {
@@ -27,6 +28,7 @@ class Navbar extends React.Component {
             )
           })}
         </ul>
+        <Button>Sign up</Button>
       </nav>
     )
   }
