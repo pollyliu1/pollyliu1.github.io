@@ -23,5 +23,6 @@ export const MenuItems = [
         title: "Contact",
         url: "#",
         cName: "nav-links"
+        // Have LinkedIn, GitHub as cards
     },
 ]
