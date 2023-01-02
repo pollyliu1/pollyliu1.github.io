@@ -20,7 +20,9 @@ class Navbar extends React.Component {
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.cName} href={item.url}>
+                <a className={item.cName} href={item.url}
+                // Only open a new tab if you want to contact me
+                target={(item.url==="mailto: pollyliu4@gmail.com") ? "_blank" : null}>
                   {item.title}
                 </a>
               </li>
