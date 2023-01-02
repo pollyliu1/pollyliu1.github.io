@@ -21,7 +21,7 @@ export const MenuItems = [
     },
     {
         title: "Contact",
-        url: "#",
+        url: "mailto: pollyliu4@gmail.com",
         cName: "nav-links"
     },
 ]

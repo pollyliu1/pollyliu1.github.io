@@ -1,6 +1,5 @@
-
 .NavbarItems {
-    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100%);
+    background: linear-gradient(90deg, rgb(109, 93, 254) 0%, rgba(73, 63, 252, 1) 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -42,15 +41,12 @@
     color: #fff;
 }
 
-.fa-times {
-    color: #fff;
-}
-
 .menu-icon {
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+/* For screens of 850px or less: */
+@media screen and (max-width: 850px) {
     .NavbarItems {
         position: relative;
     }
@@ -90,7 +86,7 @@
     .navbar-logo {
         position: absolute;
         top: 5;
-        left: 30px;
+        left: 53px;
         transform: translate(25%, 50%,);
     }
 
@@ -107,6 +103,7 @@
     .fa-times {
         color: #fff;
         font-size: 2rem;
+        padding-right: 2px;
     }
 
     .nav-links-mobile {
@@ -126,9 +123,5 @@
         background: #fff;
         color: #6568F4;
         transition: 250ms;
-    }
-
-    Button {
-        display: none;
     }
 }
