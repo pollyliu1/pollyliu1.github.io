@@ -14,6 +14,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Projects from "./pages/Projects"
+import Footer from "./components/Footer/Footer"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -21,13 +22,12 @@ function App() {
     <ChakraProvider theme={theme}>
       <div className="App">
         <Navbar />
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+        <Footer />
       </div>
     </ChakraProvider>
   );

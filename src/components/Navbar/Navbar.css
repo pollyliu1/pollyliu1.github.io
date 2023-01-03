@@ -8,7 +8,7 @@
 }
 
 .navbar-logo {
-    color: #fff;
+    color: white;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -39,7 +39,7 @@
 }
 
 .fa-bars {
-    color: #fff;
+    color: white;
 }
 
 .menu-icon {
@@ -96,33 +96,15 @@
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-100%, 60%);
+        /* Shifts bars and times icons: */
+        transform: translate(-100%, 45%);
         font-size: 1.8rem;
         cursor: pointer;
     }
 
     .fa-times {
-        color: #fff;
+        color: white;
         font-size: 2rem;
-        padding-right: 2px;
-    }
-
-    .nav-links-mobile {
-        display: block;
-        text-align: center;
-        padding: 1.5rem;
-        margin: 2rem auto;
-        border-radius: 4px;
-        width: 80%;
-        background: #4ad9e4;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.5rem;
-    }
-
-    .nav-links-mobile:hover {
-        background: #fff;
-        color: #6568F4;
-        transition: 250ms;
+        padding-right: 2.5px;
     }
 }
