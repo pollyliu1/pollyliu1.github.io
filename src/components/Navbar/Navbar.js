@@ -26,7 +26,10 @@ class Navbar extends React.Component {
             return (
               <li key={index}>
                 {/* Link element for routing */}
-                <Link className={item.cName} to={item.url}
+                <Link className={item.cName}
+                // Only link outside of the website if you want to contact me
+                // Currently not working
+                to={(item.title==="Contact") ? {pathname: "mailto: pollyliu4@gmail.com"} : item.url}
                 // Only open a new tab if you want resume or to contact me
                 target={(item.title==="Resume" || item.title ==="Contact") ? "_blank" : null}>
                   {item.title}

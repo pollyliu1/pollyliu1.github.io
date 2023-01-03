@@ -9,13 +9,12 @@ import {
   Grid,
   theme,
 } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
 import "./App.css"
 import Navbar from "./components/Navbar/Navbar"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Projects from "./pages/Projects"
-import { Route, Routes, Links } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
