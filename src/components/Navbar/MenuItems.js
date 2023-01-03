@@ -1,28 +1,27 @@
 export const MenuItems = [
     {
         title: "Home",
-        url: "#",
+        url: "/",
         cName: "nav-links"
     },
     {
         title: "About",
-        url: "#",
+        url: "/about",
         cName: "nav-links"
     },
     {
         title: "Projects",
-        url: "#",
+        url: "/projects",
         cName: "nav-links"
     },
     {
         title: "Resume",
-        url: "#",
+        url: "Polly_Liu_Resume.pdf",
         cName: "nav-links"
     },
     {
         title: "Contact",
         url: "mailto: pollyliu4@gmail.com",
         cName: "nav-links"
-        // Have LinkedIn, GitHub as cards
     },
 ]

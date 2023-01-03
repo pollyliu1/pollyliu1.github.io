@@ -12,14 +12,23 @@ import {
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import "./App.css"
 import Navbar from "./components/Navbar/Navbar"
-import Body from "./components/Body/Body"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Projects from "./pages/Projects"
+import { Route, Routes, Links } from "react-router-dom"
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <div className="App">
         <Navbar />
-        <Body />
+        <div className="container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </div>
       </div>
     </ChakraProvider>
   );
