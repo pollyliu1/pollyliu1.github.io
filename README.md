@@ -1,4 +1,4 @@
 # pollyliu1.github.io
-Here you can find my personal website! Feel free to look around.
+Here you can view the code behind my personal website! Feel free to look around.
 
-You can find it here: <a href="https://pollyliu1.github.io" target="_blank">pollyliu1.github.io</a>
+Website: <a href="https://pollyliu1.github.io" target="_blank">pollyliu1.github.io</a>
