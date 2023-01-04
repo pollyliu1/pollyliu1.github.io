@@ -1,4 +1,10 @@
 .hi {
     color: #553C9A;
     font-size: 40px;
+    background: black;
+}
+
+.body {
+    height: calc(100vh - 80px);
+    background: cyan;
 }

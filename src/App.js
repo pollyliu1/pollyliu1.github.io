@@ -8,6 +8,8 @@ import {
   Code,
   Grid,
   theme,
+  ThemeProvider,
+  CSSReset
 } from '@chakra-ui/react';
 import "./App.css"
 import Navbar from "./components/Navbar/Navbar"
@@ -21,6 +23,8 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <div className="App">
+        {/* Import to override browser CSS for theming */}
+        <CSSReset />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
