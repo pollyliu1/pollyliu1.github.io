@@ -8,7 +8,6 @@ import {
   Code,
   Grid,
   theme,
-  ThemeProvider,
   CSSReset
 } from '@chakra-ui/react';
 import "./App.css"
