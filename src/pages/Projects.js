@@ -6,11 +6,11 @@ import { Box } from '@chakra-ui/react';
 class Projects extends React.Component {
     render() {
         return(
-            <div className="body">
+            <Box className="projects">
                 <h1>Projects</h1>
                 <h2>hi</h2>
                 <Box color="pink.500" className="box">Box</Box>
-            </div>
+            </Box>
         )
     }
 }

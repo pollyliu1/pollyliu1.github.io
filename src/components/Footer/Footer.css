@@ -2,6 +2,7 @@
 
 .footer {
     height: 100px;
+    background-color: var(--purpleHover);
 }
 
 .box {

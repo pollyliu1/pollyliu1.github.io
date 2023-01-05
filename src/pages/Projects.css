@@ -1,7 +1,8 @@
 @import "../App.css";
 
-.body {
-    background: cyan;
+.projects {
+    background: red;
+    min-height: 600px;
 }
 
 .box {

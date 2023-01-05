@@ -5,10 +5,10 @@ import { Box } from '@chakra-ui/react';
 class Home extends React.Component {
     render() {
         return(
-            <div className="body">
+            <Box className="home">
                 <h1 className="welcome">Welcome</h1>
                 <h2>Hi</h2>
-            </div>
+            </Box>
         )
     }
 }
