@@ -1,11 +1,13 @@
+@import "../App.css";
+
+
 .body {
     height: calc(100vh - 80px);
-    background: cyan;
+    background: var(--tealMain);
 }
 
-.hi {
+.welcome {
     color: #553C9A;
     font-size: 40px;
     background: black;
 }
-

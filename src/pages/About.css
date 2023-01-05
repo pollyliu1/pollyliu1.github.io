@@ -1,3 +1,5 @@
+@import "../App.css";
+
 .body {
     height: calc(100vh - 80px);
     background: cyan;

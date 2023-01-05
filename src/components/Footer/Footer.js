@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Footer.css"
+import { Box } from '@chakra-ui/react';
 
 class Footer extends React.Component {
     render() {
         return(
-        <footer>
-            <h1>footer</h1>
-        </footer>
+            <div className="footer">
+                <Box className="box"> Copyright &copy; 2023 Polly Liu. All Rights Reserved</Box>
+            </div>
         )
     }
 }

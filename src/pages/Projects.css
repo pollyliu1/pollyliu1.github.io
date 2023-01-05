@@ -1,8 +1,10 @@
+@import "../App.css";
+
 .body {
     background: cyan;
 }
 
 .box {
-    font-size: 100;
+    font-size: 50px;
 }
 

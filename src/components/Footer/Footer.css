@@ -1,0 +1,10 @@
+@import "../../App.css";
+
+.footer {
+    height: 100px;
+}
+
+.box {
+    color: var(--purpleMain);
+    font-size: 20px;
+}

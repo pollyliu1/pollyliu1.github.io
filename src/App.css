@@ -1,4 +1,11 @@
 .App {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+}
+
+/* For global colour theme */
+:root {
+    --purpleMain: rgb(110, 94, 254);
+    --purpleHover: #6d76f7;
+
+    --tealMain: #C53030;
 }
