@@ -1,7 +1,7 @@
 @import "../../App.css";
 
 .NavbarItems {
-    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100%);
+    background: var(--navbarMain);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 .navbar-logo {
-    color: white;
+    color: var(--whiteMain);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -29,19 +29,19 @@
 }
 
 .nav-links {
-    color: white;
+    color: var(--whiteMain);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    background-color: #6d76f7;
+    background-color: var(--navbarHover);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-    color: white;
+    color: var(--whiteMain);
 }
 
 .menu-icon {
@@ -67,7 +67,7 @@
     }
 
     .nav-menu.active {
-        background: #6668f4;
+        background: var(--navbarMain);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -82,7 +82,7 @@
     }
 
     .nav-links:hover {
-        background-color: #7577fa;
+        background-color: var(--navbarHover);
         border-radius: 0;
     }
 
@@ -105,7 +105,7 @@
     }
 
     .fa-times {
-        color: white;
+        color: var(--whiteMain);
         font-size: 2rem;
         padding-right: 2.5px;
     }

@@ -1,7 +1,7 @@
 @import "../App.css";
 
 .projects {
-    background: red;
+    background: var(--whiteMain);
     min-height: 600px;
 }
 

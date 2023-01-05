@@ -4,8 +4,14 @@
 
 /* For global colour theme */
 :root {
-    --purpleMain: rgb(110, 94, 254);
-    --purpleHover: #6d76f7;
+    --navbarMain: rgb(39,54,59);
+    --navbarHover: rgb(57, 77, 85);
 
-    --tealMain: #C53030;
+    --tealMain: rgb(113,178,173);
+    --tealDark: rgb(114,173,160);
+    --tealDarker: rgb(65,94,94);
+ 
+    --whiteMain: rgb(245,245,245);
+    --whiteDark: rgb(221,221,221);
+    --whiteDarker: rgba(199,199,199);
 }

@@ -1,11 +1,25 @@
 @import "../../App.css";
 
 .footer {
-    height: 100px;
-    background-color: var(--purpleHover);
+    height: 155px;
+    background-color: var(--navbarMain);
 }
 
-.box {
-    color: var(--purpleMain);
-    font-size: 20px;
+.icons {
+    font-size: 30px;
+    color: var(--whiteMain);
+    justify-content: center;
+    padding: 30px;
+    grid-gap: 20px;
+}
+
+.github:hover {
+    background-color: var(--whiteMain);
+    border-radius: 2;
+}
+
+.copyright {
+    color: var(--whiteMain);
+    font-size: 12px;
+    text-align: center;
 }

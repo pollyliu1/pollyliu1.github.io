@@ -2,5 +2,5 @@
 
 .about {
     height: calc(100vh - 80px);
-    background: cyan;
+    background: var(--tealMain);
 }
