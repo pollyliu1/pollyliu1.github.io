@@ -1,13 +1,22 @@
 @import "../App.css";
 
 .projects {
-    background: var(--tealMain);
-    width: 100%;
-    padding: 20px;
-    grid-gap: 20px;
+    background: var(--whiteMain);
+    padding: 50px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
-    /* margin: 20px; */
     background-color: var(--whiteMain);
+    color: var(--whiteMain);
+    flex-shrink: 0;
+    transition: all .2s ease-in-out; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
 }
