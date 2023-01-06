@@ -1,16 +1,59 @@
 import React from 'react'
 import "./Projects.css"
-import { Box } from '@chakra-ui/react';
+import {
+    Box,
+    Flex,
+    Heading,
+    Card,
+    CardHeader,
+    CardBody,
+    CardFooter,
+    Text,
+    Image,
+    Stack,
+    Button,
+    ButtonGroup,
+    Divider } from '@chakra-ui/react'
 // Box renders a div by default
+
 
 class Projects extends React.Component {
     render() {
         return(
-            <Box className="projects">
-                <h1>Projects</h1>
-                <h2>hi</h2>
-                <Box color="pink.500" className="box">Box</Box>
-            </Box>
+            <Flex className="projects">
+                <Card className="card" maxW='sm'>
+                    <CardBody>
+                        <Image
+                        src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+                        alt='Green double couch with wooden legs'
+                        borderRadius='lg'
+                        />
+                        <Stack mt='6' spacing='3'>
+                        <Heading size='md'>Living room Sofa</Heading>
+                        <Text>
+                            This sofa is perfect for modern tropical spaces, baroque inspired
+                            spaces, earthy toned spaces and for people who love a chic design with a
+                            sprinkle of vintage design.
+                        </Text>
+                        <Text color='blue.600' fontSize='2xl'>
+                            $450
+                        </Text>
+                        </Stack>
+                    </CardBody>
+                    <Divider />
+                    <CardFooter>
+                        <ButtonGroup spacing='2'>
+                        <Button variant='solid' colorScheme='blue'>
+                            Buy now
+                        </Button>
+                        <Button variant='ghost' colorScheme='blue'>
+                            Add to cart
+                        </Button>
+                        </ButtonGroup>
+                    </CardFooter>
+                </Card>
+                <Text className="card">hi</Text>
+            </Flex>
         )
     }
 }
