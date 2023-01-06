@@ -42,6 +42,7 @@
 
 .fa-bars {
     color: var(--whiteMain);
+    padding-right: 5px;
 }
 
 .menu-icon {
@@ -89,7 +90,7 @@
     .navbar-logo {
         position: absolute;
         top: 5;
-        left: 53px;
+        left: 20px;
         transform: translate(25%, 50%,);
     }
 
@@ -107,6 +108,6 @@
     .fa-times {
         color: var(--whiteMain);
         font-size: 2rem;
-        padding-right: 2.5px;
+        padding-right: 7.5px;
     }
 }
