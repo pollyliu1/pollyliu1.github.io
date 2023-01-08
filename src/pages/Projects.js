@@ -5,14 +5,11 @@ import {
     Flex,
     Heading,
     Card,
-    CardHeader,
     CardBody,
     CardFooter,
     Text,
     Image,
     Stack,
-    Button,
-    ButtonGroup,
     Divider } from '@chakra-ui/react'
 // Box renders a div by default
 

@@ -1,13 +1,18 @@
 import React from 'react'
 import "./About.css"
-import { Box } from '@chakra-ui/react';
+import { Box, Flex, Image } from '@chakra-ui/react';
+import "../App.css";
 
 class About extends React.Component {
     render() {
         return(
             <Box className="about">
-                <h1>About</h1>
-                <h2>hi</h2>
+                <Flex className="headshot-container">
+                    <Image className="headshot"
+                    src="headshot.png" fallbackSrc="https://via.placeholder.com/1920x1080"
+                    boxShadow="dark-lg" rounded="lg"
+                    />
+                </Flex>
             </Box>
         )
     }

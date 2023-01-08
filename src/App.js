@@ -1,15 +1,5 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-  CSSReset
-} from '@chakra-ui/react';
+import { ChakraProvider, theme, CSSReset } from '@chakra-ui/react';
 import "./App.css"
 import Navbar from "./components/Navbar/Navbar"
 import Home from "./pages/Home"
