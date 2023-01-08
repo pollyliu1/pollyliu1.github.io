@@ -1,7 +1,9 @@
 import React from 'react'
 import { MenuItems } from "./MenuItems"
 import "./Navbar.css"
-import { Link, /* these two don't work: */ useMatch, useResolvedPath } from "react-router-dom"
+import { Link } from "react-router-dom"
+/* these two don't work: */ 
+// import {useMatch, useResolvedPath } from "react-router-dom"
 
 class Navbar extends React.Component {
   state = { clicked: false }
@@ -15,7 +17,7 @@ class Navbar extends React.Component {
       <nav className="NavbarItems">
         <h1 className="navbar-logo">
           {/* Takes back to homepage on click, take out if it breaks anything */}
-          <Link to="/"><img width="55px"src="Logo.png"/></Link>
+          <Link to="/"><img width="55px"src="Logo.png" alt="polly liu logo"/></Link>
         </h1>
         <div className="menu-icon" onClick={this.handleClick}>
           <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i> {/* This uses fontawesome for icons */}

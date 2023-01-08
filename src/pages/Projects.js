@@ -3,7 +3,6 @@ import "./Projects.css"
 import {
     Box,
     Flex,
-    Heading,
     Card,
     CardBody,
     CardFooter,
@@ -35,7 +34,10 @@ class Projects extends React.Component {
                     <Divider />
                     <CardFooter>
                         <Box className="gh-icons">
-                            <a href="https://github.com/pollyliu1/UWStream" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/pollyliu1/UWStream"
+                            target="_blank" rel="noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
                         </Box>
                     </CardFooter>
                 </Card>
@@ -56,7 +58,10 @@ class Projects extends React.Component {
                     <Divider />
                     <CardFooter>
                         <Box className="gh-icons">
-                            <a href="https://github.com/pollyliu1/Zooveniers" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/pollyliu1/Zooveniers"
+                            target="_blank" rel="noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
                         </Box>
                     </CardFooter>
                 </Card>
@@ -77,7 +82,10 @@ class Projects extends React.Component {
                     <Divider />
                     <CardFooter>
                         <Box className="gh-icons">
-                            <a href="https://github.com/pollyliu1/pollyliu1.github.io" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/pollyliu1/pollyliu1.github.io"
+                            target="_blank" rel="noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
                         </Box>
                     </CardFooter>
                 </Card>
