@@ -8,13 +8,20 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     flex-wrap: wrap;
     justify-content: center;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.headers {
+    font-weight: 700;
+    font-size: 25px;
 }
 
 .card {
     background-color: var(--whiteMain) !important;
     color: var(--whiteMain);
     flex-shrink: 0;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
 
 .card:hover {

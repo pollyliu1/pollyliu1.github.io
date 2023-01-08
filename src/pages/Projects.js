@@ -26,7 +26,7 @@ class Projects extends React.Component {
                         borderRadius='lg'
                         />
                         <Stack mt='6' spacing='3'>
-                        <Heading size='md'>UWStream</Heading>
+                        <Text className="headers" size='md'>UWStream</Text>
                         <Text>
                             Visual co-op sequences for University of Waterloo students
                         </Text>
@@ -47,7 +47,7 @@ class Projects extends React.Component {
                         borderRadius='lg'
                         />
                         <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Zooveniers</Heading>
+                        <Text className="headers" size='md'>Zooveniers</Text>
                         <Text>
                             Zookeeper game made with Unity (WIP)
                         </Text>
@@ -68,7 +68,7 @@ class Projects extends React.Component {
                         borderRadius='lg'
                         />
                         <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Personal Website</Heading>
+                        <Text className="headers" size='md'>Personal Website</Text>
                         <Text>
                             View the source code behind this website :)
                         </Text>
