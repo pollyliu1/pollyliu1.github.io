@@ -1,13 +1,15 @@
 import React from 'react'
 import "./Home.css"
-import { Box } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 
 class Home extends React.Component {
     render() {
         return(
             <Box className="home">
-                <h1 className="welcome">Welcome</h1>
-                <h2>Hi</h2>
+                <Box className="text-container">
+                    <Text className="text">Hi, I'm Polly</Text>
+                    <Text className="text">Software Engineer</Text>
+                </Box>
             </Box>
         )
     }

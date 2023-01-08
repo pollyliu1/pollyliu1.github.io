@@ -1,13 +1,22 @@
 @import "../App.css";
 
-
 .home {
     height: calc(100vh - 80px);
     background-color: var(--whiteMain);
 }
 
-.welcome {
-    color: #553C9A;
-    font-size: 40px;
-    background: var(--whiteMain);
+.text-container {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+}
+
+.text {
+    font-size: 53px;
+    margin: 0;
+    font-family: "Coolvetica";
+    font-weight: 400;
 }
