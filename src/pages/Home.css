@@ -9,14 +9,15 @@
     position: absolute;
     left: 10%;
     top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
+    transform: translateY(-70%);
+    width: 60vw;
     max-height: 90%;
 }
 
 .text {
     font-size: 53px;
     margin: 0;
-    font-family: "Coolvetica";
+    font-family: "Coolvetica"; 
     font-weight: 400;
 }
+
