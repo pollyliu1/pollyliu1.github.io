@@ -1,6 +1,7 @@
 @import "../App.css";
 
 .projects {
+    min-height: calc(100vh - 80px);
     background: var(--tealMain);
     padding: 50px;
     display: grid;
@@ -20,7 +21,8 @@
 .card {
     background-color: var(--whiteMain) !important;
     color: var(--whiteMain);
-    flex-shrink: 0;
+    /* Ensures cards do not stretch vertically to fill height: */
+    align-self: center;
     transition: all .2s ease-in-out;
 }
 

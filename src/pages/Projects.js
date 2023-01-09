@@ -11,11 +11,15 @@ import {
     Stack,
     Divider } from '@chakra-ui/react'
 // Box renders a div by default
-
+import { motion } from "framer-motion"
 
 class Projects extends React.Component {
     render() {
         return(
+            <motion.div
+                initial={{ width: 0 }}
+                animate={{ width: "100vw" }}
+                exit={{ x: window.innerWidth, transition: {duration: 0.1} }}>
             <Flex className="projects">
                 <Card className="card uwstream" maxW='sm'>
                     <CardBody>
@@ -90,6 +94,7 @@ class Projects extends React.Component {
                     </CardFooter>
                 </Card>
             </Flex>
+            </motion.div>
         )
     }
 }

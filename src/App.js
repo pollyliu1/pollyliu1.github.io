@@ -2,24 +2,18 @@ import React from 'react';
 import { ChakraProvider, theme, CSSReset } from '@chakra-ui/react';
 import "./App.css"
 import Navbar from "./components/Navbar/Navbar"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Projects from "./pages/Projects"
+import AnimatedRoutes from "./components/AnimatedRoutes/AnimatedRoutes"
 import Footer from "./components/Footer/Footer"
-import { Route, Routes } from "react-router-dom"
 
+// Note that BrowserRouter is already called in ./index.js
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <div className="App">
-        {/* Import to override browser CSS for theming */}
+        {/* Import to override browser CSS for theming: */}
         <CSSReset />
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
+        <AnimatedRoutes /> {/* Routing is in AnimatedRoutes.js */}
         <Footer />
       </div>
     </ChakraProvider>
