@@ -1,8 +1,11 @@
 @import "../App.css";
 
+.background {
+    background: var(--tealMain);
+}
+
 .projects {
     min-height: calc(100vh - 80px);
-    background: var(--tealMain);
     padding: 50px;
     display: grid;
     grid-gap: 50px;

@@ -1,12 +1,14 @@
 @import "../App.css";
 
 .about {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
     background: var(--tealMain);
 }
 
 .headshot-container {
     justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 .headshot {
@@ -15,4 +17,21 @@
     padding: 7px;
     margin: 40px;
     background-color: var(--navbarMain) !important;
+}
+
+.text-container {
+    left: 10vw;
+    position: relative;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.heading {
+    font-size: 3.5em !important;
+    color: var(--navbarMain);
+}
+
+.text {
+    margin: 5px;
+    font-size: 1.5rem;
 }

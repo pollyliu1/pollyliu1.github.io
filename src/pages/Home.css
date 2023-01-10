@@ -5,16 +5,16 @@
     background-color: var(--tealMain);
 }
 
-.text-container {
-    position: absolute;
-    left: 10%;
-    top: 30%;
-    width: 60vw;
-    max-height: 90%;
+.home-container {
+    padding: 35vh 100px;
 }
 
-.text {
-    font-size: 53px;
+.intro {
+    color: var(--whiteMain);
+}
+
+.role {
+    font-size: 30px;
     margin: 0;
     font-family: "Coolvetica"; 
     font-weight: 400;

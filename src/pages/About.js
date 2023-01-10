@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css"
-import { Box, Flex, Image, Text } from '@chakra-ui/react';
+import { Box, Flex, Image, Text, Heading } from '@chakra-ui/react';
 import "../App.css";
 import { motion } from "framer-motion"
 
@@ -16,9 +16,14 @@ class About extends React.Component {
                         <Image className="headshot" src="headshot.png"
                         boxShadow="dark-lg" rounded="lg" />
                     </Flex>
-                    <Text>
-                        Hello
-                    </Text>
+                    <Flex className="text-container">
+                        <Heading className="heading text">
+                            Hello!
+                        </Heading>
+                        <Text className="text">
+                            My name is Polly Liu and I am a first-year Computer Science student at the University of Waterloo.
+                        </Text>
+                    </Flex>
                 </motion.div>
             </Box>
         )

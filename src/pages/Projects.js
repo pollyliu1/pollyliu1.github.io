@@ -16,6 +16,7 @@ import { motion } from "framer-motion"
 class Projects extends React.Component {
     render() {
         return(
+            <Box className="background">
             <motion.div
                 initial={{ width: 0 }}
                 animate={{ width: "100vw" }}
@@ -95,6 +96,7 @@ class Projects extends React.Component {
                 </Card>
             </Flex>
             </motion.div>
+            </Box>
         )
     }
 }
