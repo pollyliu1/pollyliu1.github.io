@@ -1,28 +1,35 @@
 @import "../App.css";
 
+.home-container {
+    padding: 20vh 15vw;
+}
+
 .home {
     height: calc(100vh - 80px);
     background-color: var(--tealMain);
 }
 
-.home-container {
-    padding: 30vh 100px;
+.hi-container {
+    margin-bottom: 3.5rem;
+}
+
+.hi {
+    color: var(--whiteMain);
 }
 
 .intro {
     color: var(--whiteMain);
-}
-
-.intro2 {
-    color: var(--whiteMain);
     margin-bottom: 0.1rem;
 }
 
-.role {
+.typewriter {
     font-size: 30px;
-    margin: 0;
+    margin-top: 1rem;
     font-family: "Coolvetica"; 
     font-weight: 400;
-    color: var(--tealDarker);
+    color: var(--navbarHover);
 }
 
+.cursorSize {
+    color: var(--tealMain);
+  }
