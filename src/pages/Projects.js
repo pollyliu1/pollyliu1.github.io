@@ -73,7 +73,7 @@ function Projects() {
             <Card className="card website" maxW='sm'>
                 <CardBody>
                     <Image
-                    src='under_construction.png'
+                    src='Logo16by9.png'
                     alt='under construction image'
                     borderRadius='lg'
                     />
