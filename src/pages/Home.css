@@ -6,11 +6,16 @@
 }
 
 .home-container {
-    padding: 35vh 100px;
+    padding: 30vh 100px;
 }
 
 .intro {
     color: var(--whiteMain);
+}
+
+.intro2 {
+    color: var(--whiteMain);
+    margin-bottom: 0.1rem;
 }
 
 .role {
@@ -18,5 +23,6 @@
     margin: 0;
     font-family: "Coolvetica"; 
     font-weight: 400;
+    color: var(--tealDarker);
 }
 

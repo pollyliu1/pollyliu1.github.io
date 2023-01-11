@@ -57,6 +57,7 @@ class Projects extends React.Component {
                         <Text className="headers" size='md'>Zooveniers</Text>
                         <Text>
                             Zookeeper game made with Unity (WIP)
+                            <br></br>
                         </Text>
                         </Stack>
                     </CardBody>
@@ -81,6 +82,7 @@ class Projects extends React.Component {
                         <Text className="headers" size='md'>Personal Website</Text>
                         <Text>
                             View the source code behind this website :)
+                            <br></br>
                         </Text>
                         </Stack>
                     </CardBody>

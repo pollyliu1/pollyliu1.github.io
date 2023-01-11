@@ -16,12 +16,12 @@ class About extends React.Component {
                         <Image className="headshot" src="headshot.png"
                         boxShadow="dark-lg" rounded="lg" />
                     </Flex>
-                    <Flex className="text-container">
+                    <Flex className="intro-container">
                         <Heading className="heading text">
                             Hello!
                         </Heading>
                         <Text className="text">
-                            My name is Polly Liu and I am a first-year Computer Science student at the University of Waterloo.
+                            My name is Polly Liu and I'm a first-year Computer Science student at the University of Waterloo.
                         </Text>
                     </Flex>
                 </motion.div>

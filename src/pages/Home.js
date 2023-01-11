@@ -22,7 +22,7 @@ class Home extends React.Component {
                         delay: 0.5,
                         ease: [0, 0.71, 0.2, 1.01]
                     }}>
-                        <Heading className="intro" size="4xl">Hi, I'm Polly</Heading>
+                        <Heading className="intro" fontSize="6xl">Hi,</Heading>
                     </motion.div>
 
                     <motion.div
@@ -30,10 +30,21 @@ class Home extends React.Component {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{
                         duration: 0.8,
-                        delay: 1.2,
+                        delay: 1,
                         ease: [0, 0.71, 0.2, 1.01]
                     }}>
-                        <Text className="role">Software Engineer</Text>
+                        <Heading className="intro2" fontSize="7xl">I'm Polly Liu</Heading>
+                    </motion.div>
+
+                    <motion.div
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.8,
+                        delay: 1.5,
+                        ease: [0, 0.71, 0.2, 1.01]
+                    }}>
+                        <Text className="role" fontSize="">Software Engineer</Text>
                     </motion.div>
 
                 </Box>
