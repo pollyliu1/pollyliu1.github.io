@@ -1,7 +1,7 @@
 @import "../App.css";
 
 .home-container {
-    padding: 20vh 15vw;
+    padding: 25vh 15vw;
 }
 
 .home {
@@ -10,7 +10,7 @@
 }
 
 .hi-container {
-    margin-bottom: 3.5rem;
+    margin-bottom: 4rem;
 }
 
 .hi {
