@@ -1,17 +1,19 @@
 import React from 'react'
 import "./Home.css"
-import { Box, Heading } from '@chakra-ui/react';
+import { Box, Flex, Heading, Image } from '@chakra-ui/react';
 import { motion } from "framer-motion"
 import Typewriter from "typewriter-effect"
 
 function Home() {
     return(
         <Box className="home">
-        {/* motion.div works like a normal div */}
+        {/* motion.div works like a normal div,
+         this is the page transition: */}
         <motion.div
         initial={{ width: 0 }}
         animate={{ width: "100vw" }}
         exit={{ x: window.innerWidth, transition: {duration: 0.1} }}>
+            <Flex className="page-container">
             <Box className="home-container">
 
                 <motion.div className="hi-container"
@@ -61,6 +63,12 @@ function Home() {
                 </motion.div>
 
             </Box>
+
+            <motion.div>
+                <Image className="logo" src="Logo.png" />
+            </motion.div>
+
+            </Flex>
         </motion.div>
         </Box>
     )

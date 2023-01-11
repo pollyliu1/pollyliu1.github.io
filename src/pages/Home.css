@@ -1,11 +1,15 @@
 @import "../App.css";
 
+.page-container {
+    flex-wrap: wrap;
+}
+
 .home-container {
     padding: 25vh 15vw;
 }
 
 .home {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
     background-color: var(--tealMain);
 }
 
@@ -33,3 +37,17 @@
 .cursorSize {
     color: var(--tealMain);
   }
+
+.logo {
+    max-height: 30rem;
+    border-radius: 50%;
+    border: 10px solid var(--whiteDarker);
+    margin-top: 15vh;
+    margin-right: 10vw;
+}
+
+@media screen and (max-width: 1450px) {
+    .logo {
+        display: none;
+    }
+}
