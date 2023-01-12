@@ -3,6 +3,7 @@
 .footer {
     height: 155px;
     background-color: var(--navbarMain);
+    overflow: hidden;
 }
 
 .icons {

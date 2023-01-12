@@ -56,21 +56,22 @@ function Home() {
                                 strings:[
                                     "Software Engineer",
                                     "Video Game Enthusiast",
-                                    "Tech Lover"
+                                    "All things tech <3"
                                 ]}}>
                             </Typewriter>
                         </Box>
                     </motion.div>
 
                 </Box>
-
-            <motion.div
-            initial={{opacity: 0}}
-            animate={{opacity: 1}}
-            transition={{ delay: 2 }}
-            >
-                <Image className="logo" src="Logo.png" />
-            </motion.div>
+            <Box className="logo-container">
+                <motion.div
+                initial={{opacity: 0}}
+                animate={{opacity: 1}}
+                transition={{ delay: 2 }}
+                >
+                    <Image className="logo" src="Logo.png" />
+                </motion.div>
+            </Box>
             </Flex>
         </motion.div>
         </Box>

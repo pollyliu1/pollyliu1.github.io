@@ -3,6 +3,7 @@
 .about {
     min-height: calc(100vh - 80px);
     background: var(--tealMain);
+    overflow: hidden;
 }
 
 .headshot-container {

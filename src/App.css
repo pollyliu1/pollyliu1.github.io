@@ -15,3 +15,10 @@
     --whiteDark: rgb(221,221,221);
     --whiteDarker: rgba(199,199,199);
 }
+
+/* overflow debugger */
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */

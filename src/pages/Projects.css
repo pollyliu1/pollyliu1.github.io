@@ -2,6 +2,7 @@
 
 .background {
     background: var(--tealMain);
+    overflow: hidden;
 }
 
 .projects {
