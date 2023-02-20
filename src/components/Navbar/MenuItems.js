@@ -14,14 +14,14 @@ export const MenuItems = [
         url: "/projects",
         cName: "nav-links"
     },
-    {
-        title: "Resume",
-        url: "Polly_Liu_Resume.pdf",
-        cName: "nav-links"
-    },
+    // {
+    //     title: "Resume",
+    //     url: "Polly_Liu_Resume.pdf",
+    //     cName: "nav-links"
+    // },
     {
         title: "Contact",
-        url: "mailto: pollyliu4@gmail.com",
+        url: "/contact",
         cName: "nav-links"
     },
 ]

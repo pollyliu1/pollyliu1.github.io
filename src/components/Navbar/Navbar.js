@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 // import {useMatch, useResolvedPath } from "react-router-dom"
 import { motion } from "framer-motion"
 
+// Convert to functional component at some point
 class Navbar extends React.Component {
     state = { clicked: false }
 
@@ -42,10 +43,14 @@ class Navbar extends React.Component {
 
                         // Only link outside of the website if you want to contact me
                         // Currently not working
-                        to={(item.title==="Contact") ? {pathname: "mailto: pollyliu4@gmail.com"} : item.url}
+                        to={
+                            // Old logic for when contact page was a mailto: Link
+                            // (item.title==="Contact") ? {pathname: "mailto: pollyliu4@gmail.com"} : 
+                            item.url}
 
                         // Only open a new tab if you want resume or to contact me
-                        target={(item.title==="Resume" || item.title ==="Contact") ? "_blank" : null}>
+                        // target={(item.title==="Resume" || item.title ==="Contact") ? "_blank" : null}
+                        >
                         {item.title}
                         </Link>
                         </motion.div>

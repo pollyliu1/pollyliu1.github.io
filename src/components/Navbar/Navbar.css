@@ -19,8 +19,8 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 25px;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 40px;
     list-style: none;
     text-align: center;
     width: 70vw;
@@ -91,7 +91,7 @@
         position: absolute;
         top: 5;
         left: 20px;
-        transform: translate(25%, 50%,);
+        transform: translate(25%, 50%, );
     }
 
     .menu-icon {

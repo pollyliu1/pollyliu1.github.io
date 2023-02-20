@@ -5,7 +5,7 @@ import "../App.css";
 import { motion } from "framer-motion"
 
 function About() {
-    return(
+    return (
         <Box className="about">
             <motion.div
             initial={{ width: 0 }}
@@ -15,6 +15,10 @@ function About() {
                     <Image className="headshot" src="headshot.png"
                     boxShadow="dark-lg" rounded="lg" />
                 </Flex>
+            </motion.div>
+            <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1, transition: {duration: 0.1}}}>
                 <Flex className="intro-container">
                     <Heading className="heading text">
                         Hello!

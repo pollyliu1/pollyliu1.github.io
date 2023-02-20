@@ -1,0 +1,13 @@
+@import "../App.css";
+
+.contact {
+    min-height: calc(100vh - 80px);
+    background: var(--tealMain);
+    overflow: hidden;
+}
+
+.contact-heading {
+    font-size: 4em !important;
+    color: var(--whiteMain) !important;
+    padding: 15vh;
+}
