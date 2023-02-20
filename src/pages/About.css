@@ -2,6 +2,7 @@
 
 .about {
     min-height: calc(100vh - 80px);
+    height: 100vh;
     background: var(--tealMain);
     overflow: hidden;
 }
@@ -21,10 +22,10 @@
 }
 
 .intro-container {
-    left: 10vw;
+    padding: 0 10vw;
     position: relative;
     flex-direction: column;
-    width: 80vw;
+    width: 90vw;
 }
 
 .heading {
