@@ -120,6 +120,31 @@ function Projects() {
                     </Box>
                 </CardFooter>
             </Card>
+            <Card className="card weatherwear" maxW='sm'>
+                <CardBody>
+                    <Image
+                    src='WeatherWear.png'
+                    alt='weatherwear homepage'
+                    borderRadius='lg'
+                    />
+                    <Stack mt='6' spacing='3'>
+                    <Text className="headers" size='md'>WeatherWear</Text>
+                    <Text>
+                        An AI-powered outfit recommender based on weather conditions
+                        <br></br>
+                    </Text>
+                    </Stack>
+                </CardBody>
+                <Divider />
+                <CardFooter>
+                    <Box className="gh-icons">
+                        <a href="https://github.com/pollyliu1/WeatherWear"
+                        target="_blank" rel="noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </Box>
+                </CardFooter>
+            </Card>
             <Card className="card zooveniers" maxW='sm'>
                 <CardBody>
                     <Image

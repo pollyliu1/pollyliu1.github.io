@@ -45,6 +45,6 @@
 .gh-icons:hover {
     background-color: var(--whiteDark);
     border-radius: 5px;
-    transition: all .05s ease-in-out; 
+    transition: all .05s ease-in-out;
     padding: 0 8px;
 }
