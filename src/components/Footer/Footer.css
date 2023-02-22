@@ -11,29 +11,23 @@
     color: var(--whiteMain);
     justify-content: center;
     padding: 30px;
-    grid-gap: 30px;
+    grid-gap: 35px;
     height: 110px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    list-style: none;
+    text-align: center;
 }
 
-.email:hover {
+.footer-icon {
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+}
+
+.footer-icon:hover {
     background-color: var(--navbarHover);
     border-radius: 5px;
     transition: all 0.2s ease-out;
-    padding: 0.20rem 0.75rem;
-}
-
-.github:hover {
-    background-color: var(--navbarHover);
-    border-radius: 5px;
-    transition: all 0.2s ease-out;
-    padding: 0.20rem .75rem;
-}
-
-.linkedin:hover {
-    background-color: var(--navbarHover);
-    border-radius: 5px;
-    transition: all 0.2s ease-out;
-    padding: 0.20rem 0.75rem;
 }
 
 .copyright {
