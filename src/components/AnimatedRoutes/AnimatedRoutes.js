@@ -3,7 +3,7 @@ import Home from "../../pages/Home"
 import About from "../../pages/About"
 import Projects from "../../pages/Projects"
 import Contact from "../../pages/Contact"
-import { Route, Routes, /* for framer-motion */ useLocation } from "react-router-dom"
+import { Route, Routes, /* for framer-motion: */ useLocation } from "react-router-dom"
 import { AnimatePresence } from "framer-motion"
 
 function AnimatedRoutes() {
