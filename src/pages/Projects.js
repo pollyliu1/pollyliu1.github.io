@@ -130,7 +130,7 @@ function Projects() {
                     <Stack mt='6' spacing='3'>
                     <Text className="headers" size='md'>WeatherWear</Text>
                     <Text>
-                        An AI-powered outfit recommender based on weather conditions
+                        An AI-powered outfit generator based on weather conditions
                         <br></br>
                     </Text>
                     </Stack>

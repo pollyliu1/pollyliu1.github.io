@@ -39,12 +39,13 @@
 .gh-icons {
     font-size: 30px;
     margin: auto;
+    border-radius: 50px;
     color: var(--navbarMain);
 }
 
 .gh-icons:hover {
     background-color: var(--whiteDark);
-    border-radius: 5px;
+    /* border-radius: 5px; */
     transition: all .05s ease-in-out;
     padding: 0 8px;
 }

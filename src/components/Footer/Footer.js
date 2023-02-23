@@ -10,7 +10,7 @@ function Footer() {
                 <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}>
-                    <a className="email footer-icon" href="mailto: pollyliu4@gmail.com"
+                    <a className="email footer-icon" href="mailto: polly.liu@uwaterloo.ca"
                     target="_blank" rel="noreferrer">
                         <i class="far fa-envelope"></i>
                     </a>

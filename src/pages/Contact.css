@@ -9,5 +9,30 @@
 .contact-heading {
     font-size: 4em !important;
     color: var(--whiteMain) !important;
-    padding: 15vh;
+    padding: 15vh 15vw;
+}
+
+.contact-options {
+    font-size: 6vh;
+    justify-content: center;
+    display: grid;
+    grid-gap: 10vw;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contact-icon {
+    background-color: var(--whiteMain);
+    border-radius: 50px;
+    padding: 0px 15px;
+    text-shadow: 4px 4px 4px var(--whiteDarker);
+}
+
+.contact-text {
+    color: var(--navbarMain);
 }
