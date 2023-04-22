@@ -18,22 +18,29 @@ function Contact() {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}>
                         <Flex className="contact-icons">
-                        <a className="email contact-icon" href="mailto: polly.liu@uwaterloo.ca"
-                        target="_blank" rel="noreferrer">
-                            <i class="far fa-envelope"></i>
-                        </a>
-                        <Text className="contact-text">&nbsp;Email</Text>
+                            {/* Bruteforcing anchors, how to exclude anchor classes otherwise? */}
+                            <a className="email contact-icon" href="mailto: polly.liu@uwaterloo.ca"
+                            target="_blank" rel="noreferrer">
+                                <i class="far fa-envelope"></i>
+                            </a>
+                            <a href="mailto: polly.liu@uwaterloo.ca"
+                            target="_blank" rel="noreferrer">
+                                <Text className="contact-text">&nbsp;Email</Text>
+                            </a>
                         </Flex>
                     </motion.div>
                     <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}>
                         <Flex className="contact-icons">
-                        <a className="github contact-icon" href="https://github.com/pollyliu1"
-                        target="_blank" rel="noreferrer">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <Text className="contact-text">&nbsp;GitHub</Text>
+                            <a className="github contact-icon" href="https://github.com/pollyliu1"
+                            target="_blank" rel="noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/pollyliu1"
+                            target="_blank" rel="noreferrer">
+                                <Text className="contact-text">&nbsp;GitHub</Text>
+                            </a>
                         </Flex>
                     </motion.div>
                     <motion.div
@@ -44,7 +51,10 @@ function Contact() {
                         target="_blank" rel="noreferrer">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <Text className="contact-text">&nbsp;LinkedIn</Text>
+                        <a href="https://www.linkedin.com/in/pollyliu1/"
+                        target="_blank" rel="noreferrer">
+                            <Text className="contact-text">&nbsp;LinkedIn</Text>
+                        </a>
                         </Flex>
                     </motion.div>
                 </Flex>

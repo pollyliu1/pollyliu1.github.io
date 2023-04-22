@@ -2,7 +2,7 @@
 
 .page-container {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -39,30 +39,5 @@
 
 .cursorSize {
     color: var(--tealMain);
-  }
-
-.logo-container {
-    /* height: 60vh; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 18vh 10vw;
-    overflow: hidden;
 }
 
-.logo {
-    border-radius: 50%;
-    border: 10px solid var(--whiteDarker);
-    /* max-height: 10rem;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-    margin-right: 10vw; */
-    max-width: 30em;
-    max-height: 30em;
-}
-
-@media screen and (max-width: 1793px) {
-    .logo {
-        display: none;
-    }
-}

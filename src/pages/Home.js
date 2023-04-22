@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import { Box, Flex, Heading, Image } from '@chakra-ui/react';
+import { Box, Flex, Heading} from '@chakra-ui/react';
 import { motion } from "framer-motion"
 import Typewriter from "typewriter-effect"
 
@@ -63,15 +63,8 @@ function Home() {
                     </motion.div>
 
                 </Box>
-            <Box className="logo-container">
-                <motion.div
-                initial={{opacity: 0}}
-                animate={{opacity: 1}}
-                transition={{ delay: 2 }}
-                >
-                    <Image className="logo" src="Logo.png" />
-                </motion.div>
-            </Box>
+                {/* Implement Spline */}
+
             </Flex>
         </motion.div>
         </Box>
