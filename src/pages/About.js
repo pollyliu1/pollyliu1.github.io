@@ -10,7 +10,7 @@ function About() {
             <motion.div
             initial={{ width: 0 }}
             animate={{ width: "100vw" }}
-            exit={{ x: window.innerWidth, transition: {duration: 0.1} }}>
+            exit={{ x: window.innerWidth, transition: {duration: 0.2} }}>
                 <Flex className="headshot-container">
                     <Image className="headshot" src="headshot.png"
                     boxShadow="dark-lg" rounded="lg" />
@@ -18,7 +18,11 @@ function About() {
             </motion.div>
             <motion.div
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1, transition: {duration: 0.1}}}>
+            whileInView={{ opacity: 1, transition:{
+                duration: 1.5,
+                delay: 0.4,
+                ease: [0, 0.71, 0.2, 1.01]
+            }}}>
                 <Flex className="intro-container">
                     <Heading className="heading text">
                         Hello!

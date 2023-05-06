@@ -19,7 +19,7 @@ function Projects() {
         <motion.div
             initial={{ width: 0 }}
             animate={{ width: "100vw" }}
-            exit={{ x: window.innerWidth, transition: {duration: 0.1} }}>
+            exit={{ x: window.innerWidth, transition: {duration: 0.2} }}>
         <Flex className="projects">
             <Card className="card uwstream" maxW='sm'>
                 <CardBody>

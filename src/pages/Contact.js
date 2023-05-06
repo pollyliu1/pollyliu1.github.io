@@ -9,7 +9,7 @@ function Contact() {
     <Box className="contact">
             <motion.div
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1, transition: {duration: 0.2}}}>
+            whileInView={{ opacity: 1, transition: {duration: 0.5}}}>
                 <Heading className="contact-heading">
                         Contact Me!
                 </Heading>
