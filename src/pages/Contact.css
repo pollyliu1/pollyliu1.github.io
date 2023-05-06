@@ -15,8 +15,10 @@
 .contact-options {
     font-size: 6vh;
     justify-content: center;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-gap: 10vw;
+    padding: 0 10vw;
 }
 
 .contact-icons {

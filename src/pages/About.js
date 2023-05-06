@@ -28,7 +28,7 @@ function About() {
                         Hello!
                     </Heading>
                     <Text className="text">
-                        My name is Polly Liu and I'm a first-year Computer Science student at the University of Waterloo.
+                        My name is Polly Liu and I'm a second-year Computer Science student at the University of Waterloo.
                     </Text>
                 </Flex>
             </motion.div>

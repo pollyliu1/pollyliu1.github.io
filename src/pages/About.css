@@ -25,10 +25,10 @@
     padding: 0 10vw;
     position: relative;
     flex-direction: column;
-    width: 90vw;
 }
 
 .heading {
+    margin: 5px;
     font-size: 3.5em !important;
     color: var(--whiteMain) !important;
 }
