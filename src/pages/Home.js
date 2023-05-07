@@ -35,7 +35,7 @@ function Home() {
                         delay: 1,
                         ease: [0, 0.71, 0.2, 1.01]
                     }}>
-                        <Heading className="intro" fontSize="7xl">I'm Polly <span style={{color: "#394d55"}}>Liu</span></Heading>
+                        <Heading className="intro" fontSize="7xl"><span>I'm</span> Polly Liu</Heading>
                     </motion.div>
 
                     <motion.div

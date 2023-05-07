@@ -28,10 +28,14 @@ function About() {
                         Hello!
                     </Heading>
                     <Text className="text">
-                        My name is Polly Liu and I'm a second-year Computer Science student at the University of Waterloo.
+                        My name is Polly Liu and I'm a second-year Computer Science student at the University of Waterloo. I'm passionate about
+                        the tech industry and I'm always looking for opportunities to learn and grow as a developer!
                     </Text>
                 </Flex>
             </motion.div>
+
+            {/* Curvy div */}
+            
         </Box>
     )
 }
