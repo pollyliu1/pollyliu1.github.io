@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import { Box, Flex, Heading} from '@chakra-ui/react';
+import { Box, Flex, Heading, Image } from '@chakra-ui/react';
 import { motion } from "framer-motion"
 import Typewriter from "typewriter-effect"
 
@@ -35,7 +35,7 @@ function Home() {
                         delay: 1,
                         ease: [0, 0.71, 0.2, 1.01]
                     }}>
-                        <Heading className="intro" fontSize="7xl"><span>I'm</span> Polly Liu</Heading>
+                        <Heading className="intro" fontSize="7xl">I'm Polly <span className="liu">Liu</span></Heading>
                     </motion.div>
 
                     <motion.div
@@ -64,7 +64,16 @@ function Home() {
 
                 </Box>
                 {/* Implement Spline */}
-
+                <motion.div className="memoji-container"
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.8,
+                        delay: 2,
+                        ease: [0, 0.71, 0.2, 1.01]
+                    }}>
+                        <Image src="Memoji.png"></Image>
+                </motion.div>
             </Flex>
         </motion.div>
         </Box>

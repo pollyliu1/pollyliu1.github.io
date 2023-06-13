@@ -2,12 +2,13 @@
 
 .page-container {
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
 .home-container {
-    padding: 25vh 15vw;
+    padding: 20vh 12vw 15vh 11vw;
+    align-items: center;
 }
 
 .home {
@@ -29,6 +30,10 @@
     margin-bottom: 0.1rem;
 }
 
+.liu{
+    color: var(--tealDarker) !important;
+}
+
 .typewriter {
     font-size: 30px;
     margin-top: 1rem;
@@ -41,3 +46,6 @@
     color: var(--tealMain);
 }
 
+.memoji-container {
+    padding: 17vh 10vw 15vh 10vw;
+}
