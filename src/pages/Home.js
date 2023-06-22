@@ -63,7 +63,7 @@ function Home() {
                     </motion.div>
 
                 </Box>
-                {/* Implement Spline */}
+                
                 <motion.div className="memoji-container"
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}

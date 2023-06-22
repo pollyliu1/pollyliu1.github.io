@@ -1,10 +1,15 @@
 @import "../App.css";
 
-.about {
+.about-page-container {
+    min-height: calc(100vh - 80px + 161px);
+    background-color: var(--whiteMain);
+}
+
+.about-landing {
     min-height: calc(100vh - 80px);
-    height: 100vh;
+    height: 90vh;
     background: var(--tealMain);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .headshot-container {
@@ -38,3 +43,36 @@
     font-size: 1.5rem;
     color: var(--navbarHover);
 }
+
+/* WAVY DIV */
+.wavy-div {
+    position: relative;
+}
+.custom-shape-divider-top-1687400749 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1687400749 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 161px;
+}
+
+.custom-shape-divider-top-1687400749 .shape-fill {
+    fill: #71B2AD;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1687400749 svg {
+        width: calc(100% + 1.3px);
+        height: 158px;
+    }
+}
+/* END OF WAVY DIV */
