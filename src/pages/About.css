@@ -2,7 +2,7 @@
 
 .about-page-container {
     min-height: calc(100vh - 80px + 161px);
-    background-color: var(--whiteMain);
+    background-color: var(--whiteDark);
 }
 
 .about-landing {
@@ -48,7 +48,7 @@
 .wavy-div {
     position: relative;
 }
-.custom-shape-divider-top-1687400749 {
+.wave {
     position: absolute;
     top: 0;
     left: 0;
@@ -57,22 +57,41 @@
     line-height: 0;
 }
 
-.custom-shape-divider-top-1687400749 svg {
+.wave svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 161px;
 }
 
-.custom-shape-divider-top-1687400749 .shape-fill {
+.wave .shape-fill {
     fill: #71B2AD;
 }
 
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
-    .custom-shape-divider-top-1687400749 svg {
+    .wave svg {
         width: calc(100% + 1.3px);
         height: 158px;
     }
 }
 /* END OF WAVY DIV */
+
+.about-info {
+    /* height: 100vh; */
+    padding: 25vh 10vw;
+    color: var(--tealDarker);
+}
+
+.interests-container {
+    justify-content: center;
+
+}
+
+.interest {
+    justify-content: center;
+    max-width: 40vw;
+    margin: 7vh 0;
+    /* max-height: 50vh; */
+    /* object-fit: contain; */
+}

@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# annoying errors
+node_modules/.cache/
+
 # testing
 /coverage
 
