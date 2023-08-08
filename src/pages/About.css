@@ -23,7 +23,7 @@
     max-width: 80vw;
     padding: 7px;
     margin: 40px;
-    background-color: var(--navbarMain) !important;
+    background-color: var(--navbarHover) !important;
 }
 
 .intro-container {
@@ -35,7 +35,7 @@
 .heading {
     margin: 5px;
     font-size: 3.5em !important;
-    color: var(--whiteMain) !important;
+    color: var(--whiteMain);
 }
 
 .text {
@@ -79,19 +79,58 @@
 
 .about-info {
     /* height: 100vh; */
-    padding: 25vh 10vw;
-    color: var(--tealDarker);
+    padding: 25vh 10vw 10vh 10vw;
+    color: var(--navbarHover);
+}
+
+.heading-interest {
+    font-size: 3rem !important;
+    padding-top: 1rem;
 }
 
 .interests-container {
     justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    /* min-width: 600px; */
+    /* flex: grid; */
+    width: 100%;
 
 }
 
 .interest {
     justify-content: center;
-    max-width: 40vw;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* max-width: 70%; */
+    /* min-width: 450px; */
     margin: 7vh 0;
     /* max-height: 50vh; */
     /* object-fit: contain; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.interest-text-container {
+    margin-left: 5vw;
+    /* margin-right: 5vw; */
+    /* font-size: 1.5em;     */
+    /* font-size: 1.5rem; */
+    width: 100%;
+    min-width: 450px;
+}
+
+.carousel {
+    min-width: 450px;
+    max-width: 40%;
+    margin-bottom: 5vh;
+}
+
+.carousel, .interest-text-container {
+    flex: 1; 
+    max-width: 50%;
+}
+
+.interest-heading {
+    padding-bottom: 4vh;
 }

@@ -31,7 +31,7 @@ function About() {
                 ease: [0, 0.71, 0.2, 1.01]
             }}}>
                 <Flex className="intro-container">
-                    <Heading className="heading text">
+                    <Heading className="heading">
                         Hello!
                     </Heading>
                     <Text className="text">
@@ -55,22 +55,38 @@ function About() {
         </Box>
 
         <Box className="about-info">
-            <Heading>Interests</Heading>
+            <Heading className="heading-interest">Interests</Heading>
 
-            <Box className="interests-container">
+            <Flex className="interests-container">
                 <Flex className="interest">
-                    <Carousel data={frisbee}>
-
-                    </Carousel>
-
+                    <Carousel data={frisbee} className="carousel" />
+                    <Box className="interest-text-container">
+                        <span>
+                            <Heading className="interest-heading" size="xl">
+                                Ultimate Frisbee
+                            </Heading>
+                        </span>
+                        <Text className="text">
+                            I've been playing frisbee since primary school and it's my go-to sport
+                        </Text>
+                    </Box>
                 </Flex>
-                {/* <Flex className="interest">
-                    <Carousel data={music}>
-
-                    </Carousel>
-                    
-                </Flex> */}
-            </Box>
+            </Flex>
+            <Flex className="interests-container">
+                <Flex className="interest">
+                    <Carousel data={music} />
+                    <Box className="interest-text-container">
+                        <span>
+                            <Heading className="interest-heading" size="xl">
+                                Instrumental Music
+                            </Heading>
+                        </span>
+                        <Text className="text">
+                            Music hehe
+                        </Text>
+                    </Box>
+                </Flex>
+            </Flex>
         </Box>
 
         </Box>
