@@ -55,14 +55,13 @@ function About() {
         </Box>
 
         <Box className="about-info">
-            <Heading className="heading-interest">Interests</Heading>
-
+            <Heading className="heading-interest" data-aos="fade-up" data-aos-anchor-placement="bottom">Interests</Heading>
             <Flex className="interests-container">
                 <Flex className="interest">
                     <Carousel data={frisbee} className="carousel" />
-                    <Box className="interest-text-container">
+                    <Box className="interest-text-container" data-aos="fade-left" data-aos-anchor-placement="bottom" data-aos-duration="1000">
                         <span>
-                            <Heading className="interest-heading" size="xl">
+                            <Heading className="interest-heading">
                                 Ultimate Frisbee
                             </Heading>
                         </span>
@@ -74,10 +73,10 @@ function About() {
             </Flex>
             <Flex className="interests-container">
                 <Flex className="interest">
-                    <Carousel data={music} />
-                    <Box className="interest-text-container">
+                    <Carousel data={music} className="carousel"/>
+                    <Box className="interest-text-container" data-aos="fade-left" data-aos-anchor-placement="bottom" data-aos-duration="1000">
                         <span>
-                            <Heading className="interest-heading" size="xl">
+                            <Heading className="interest-heading">
                                 Instrumental Music
                             </Heading>
                         </span>

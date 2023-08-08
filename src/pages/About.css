@@ -78,7 +78,6 @@
 /* END OF WAVY DIV */
 
 .about-info {
-    /* height: 100vh; */
     padding: 25vh 10vw 10vh 10vw;
     color: var(--navbarHover);
 }
@@ -92,32 +91,24 @@
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
-    /* min-width: 600px; */
-    /* flex: grid; */
     width: 100%;
-
 }
 
 .interest {
     justify-content: center;
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
-    /* max-width: 70%; */
-    /* min-width: 450px; */
     margin: 7vh 0;
-    /* max-height: 50vh; */
-    /* object-fit: contain; */
     width: 100%;
     flex-wrap: wrap;
+    /* overflow-x: hidden; */
 }
 
 .interest-text-container {
     margin-left: 5vw;
-    /* margin-right: 5vw; */
-    /* font-size: 1.5em;     */
-    /* font-size: 1.5rem; */
     width: 100%;
     min-width: 450px;
+
+    /* GET THIS CENTERED? */
+    align-items: center;
 }
 
 .carousel {
@@ -132,5 +123,6 @@
 }
 
 .interest-heading {
+    font-size: 2rem;
     padding-bottom: 4vh;
 }
