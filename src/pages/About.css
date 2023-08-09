@@ -123,6 +123,6 @@
 }
 
 .interest-heading {
-    font-size: 2rem;
+    font-size: 2rem !important;;
     padding-bottom: 4vh;
 }

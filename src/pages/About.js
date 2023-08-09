@@ -62,11 +62,13 @@ function About() {
                     <Box className="interest-text-container" data-aos="fade-left" data-aos-anchor-placement="bottom" data-aos-duration="1000">
                         <span>
                             <Heading className="interest-heading">
-                                Ultimate Frisbee
+                                Ultimate Frisbee 🥏
                             </Heading>
                         </span>
                         <Text className="text">
-                            I've been playing frisbee since primary school and it's my go-to sport
+                            I've been playing frisbee since primary school and it's developed to be a huge part of my life.
+                            I really love the community that frisbee fosters as well as the teamwork you build in no other setting.
+                            It's a great way to stay active amidst university!
                         </Text>
                     </Box>
                 </Flex>
@@ -77,11 +79,13 @@ function About() {
                     <Box className="interest-text-container" data-aos="fade-left" data-aos-anchor-placement="bottom" data-aos-duration="1000">
                         <span>
                             <Heading className="interest-heading">
-                                Instrumental Music
+                                Instrumental Music 🎼
                             </Heading>
                         </span>
                         <Text className="text">
-                            Music hehe
+                            After a long day, nothing helps me recollect myself like playing my various instruments.
+                            I've had the opportunity to play in diverse ensembles, including orchestras, concert, jazz, and military bands!
+                            I'm super grateful these experiences have allowed me to develop myself in areas other than tech.
                         </Text>
                     </Box>
                 </Flex>
