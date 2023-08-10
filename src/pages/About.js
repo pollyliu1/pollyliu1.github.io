@@ -67,7 +67,7 @@ function About() {
                         </span>
                         <Text className="text">
                             I've been playing frisbee since primary school and it's developed to be a huge part of my life.
-                            I really love the community that frisbee fosters as well as the teamwork you build in no other setting.
+                            I really love the community that frisbee fosters as well as the unique teamwork you build.
                             It's a great way to stay active amidst university!
                         </Text>
                     </Box>
@@ -83,9 +83,9 @@ function About() {
                             </Heading>
                         </span>
                         <Text className="text">
-                            After a long day, nothing helps me recollect myself like playing my various instruments.
+                            Playing music is the one thing that will improve my mood without fail.
                             I've had the opportunity to play in diverse ensembles, including orchestras, concert, jazz, and military bands!
-                            I'm super grateful these experiences have allowed me to develop myself in areas other than tech.
+                            I'm super grateful that these experiences allow me to develop myself in areas outside of tech.
                         </Text>
                     </Box>
                 </Flex>
