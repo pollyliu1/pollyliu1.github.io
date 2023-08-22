@@ -21,24 +21,25 @@ function Projects() {
             animate={{ width: "100vw" }}
             exit={{ x: window.innerWidth, transition: {duration: 0.2} }}>
         <Flex className="projects">
-            <Card className="card uwstream" maxW='sm'>
+            <Card className="card optimism" maxW='sm'>
                 <CardBody>
                     <Image
-                    src='under_construction.png'
-                    alt='under construction image'
+                    src='OPTimism.png'
+                    alt='OPTimism setup'
                     borderRadius='lg'
                     />
                     <Stack mt='6' spacing='3'>
-                    <Text className="headers" size='md'>UWStream</Text>
+                    <Text className="headers" size='md'>OPTimism</Text>
                     <Text>
-                        Visual co-op sequences for University of Waterloo students
+                        Smart glasses, AI, and gamified system
+                        to inspire healthy eye habits and correct posture.
                     </Text>
                     </Stack>
                 </CardBody>
                 <Divider />
                 <CardFooter>
                     <Box className="gh-icons">
-                        <a href="https://github.com/pollyliu1/UWStream"
+                        <a href="https://github.com/pollyliu1/OPTimism"
                         target="_blank" rel="noreferrer">
                             <i class="fab fa-github"></i>
                         </a>
