@@ -55,11 +55,26 @@ function About() {
         </Box>
 
         <Box className="about-info">
-            <Heading className="heading-interest" data-aos="fade-up" data-aos-anchor-placement="bottom">Interests</Heading>
+            <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1, transition:{
+                duration: 1.5,
+                delay: 0.4,
+                ease: [0, 0.71, 0.2, 1.01]
+            }}}>
+                <Heading className="heading-interest" /* data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-once='true' */>Interests</Heading>
+            </motion.div>
             <Flex className="interests-container">
                 <Flex className="interest">
                     <Carousel data={frisbee} className="carousel" />
-                    <Box className="interest-text-container" data-aos="fade-left" data-aos-anchor-placement="bottom" data-aos-duration="1000">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1, transition: {
+                            duration: 1.5,
+                            delay: 0.4,
+                            ease: [0, 0.71, 0.2, 1.01]
+                        }}}
+                        className="interest-text-container" /* data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-once='true' */>
                         <span>
                             <Heading className="interest-heading">
                                 Ultimate Frisbee 🥏
@@ -70,13 +85,20 @@ function About() {
                             I really love the community that frisbee fosters as well as the unique teamwork you build.
                             It's a great way to stay active amidst university!
                         </Text>
-                    </Box>
+                    </motion.div>
                 </Flex>
             </Flex>
             <Flex className="interests-container">
                 <Flex className="interest">
                     <Carousel data={music} className="carousel"/>
-                    <Box className="interest-text-container" data-aos="fade-left" data-aos-anchor-placement="bottom" data-aos-duration="1000">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1, transition: {
+                            duration: 1.5,
+                            delay: 0.4,
+                            ease: [0, 0.71, 0.2, 1.01]
+                        }}}
+                        className="interest-text-container" /* data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-once='true' */>
                         <span>
                             <Heading className="interest-heading">
                                 Instrumental Music 🎼
@@ -87,7 +109,7 @@ function About() {
                             I've had the opportunity to play in diverse ensembles, including orchestras, concert, jazz, and military bands!
                             I'm super grateful that these experiences allow me to develop myself in areas outside of tech.
                         </Text>
-                    </Box>
+                    </motion.div>
                 </Flex>
             </Flex>
         </Box>
