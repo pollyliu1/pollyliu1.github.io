@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Carousel.css"
-import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs"
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa"
 
 export const Carousel = ({ data }) => {
     const [slide, setSlide] = useState(0)
@@ -14,7 +14,7 @@ export const Carousel = ({ data }) => {
     
     return (
         <div className = "carousel">
-            <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide} />
+            <FaArrowCircleLeft className="arrow arrow-left" onClick={prevSlide} />
             {data.map((item, idx) => {
                 return (
                     <img
@@ -25,7 +25,7 @@ export const Carousel = ({ data }) => {
                     />
                 )
             })}
-            <BsArrowRightCircleFill className="arrow arrow-right" onClick={nextSlide} />
+            <FaArrowCircleRight className="arrow arrow-right" onClick={nextSlide} />
 
             <span className="indicators"> {/* Image selector on the bottom */}
                 {data.map((_, idx)  => {
