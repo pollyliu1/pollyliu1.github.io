@@ -46,17 +46,17 @@ function Projects() {
                     </Box>
                 </CardFooter>
             </Card>
-            <Card className="card empowrher" maxW='sm'>
+            <Card className="card mindosaur" maxW='sm'>
                 <CardBody>
                     <Image
-                    src='EmpowrHER.png'
-                    alt='empowrher homepage'
+                    src='Mindosaur.png'
+                    alt='Mindosaur setup'
                     borderRadius='lg'
                     />
                     <Stack mt='6' spacing='3'>
-                    <Text className="headers" size='md'>EmpowrHER</Text>
+                    <Text className="headers" size='md'>Mindosaur</Text>
                     <Text>
-                        Skill trading web app for women in STEM
+                        Productivity web app and personalized desk pet using EEG signals from OpenBCI Ultracortex
                         <br></br>
                     </Text>
                     </Stack>
@@ -64,7 +64,57 @@ function Projects() {
                 <Divider />
                 <CardFooter>
                     <Box className="gh-icons">
-                        <a href="https://github.com/pollyliu1/EmpowrHER"
+                        <a href="https://github.com/pollyliu1/Mindosaur"
+                        target="_blank" rel="noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </Box>
+                </CardFooter>
+            </Card>
+            <Card className="card studining" maxW='sm'>
+                <CardBody>
+                    <Image
+                    src='StuDining.png'
+                    alt='StuDining parent page'
+                    borderRadius='lg'
+                    />
+                    <Stack mt='6' spacing='3'>
+                    <Text className="headers" size='md'>StuDining</Text>
+                    <Text>
+                        Personalized tutoring web-app disguised as your parent
+                        <br></br>
+                    </Text>
+                    </Stack>
+                </CardBody>
+                <Divider />
+                <CardFooter>
+                    <Box className="gh-icons">
+                        <a href="https://github.com/pollyliu1/StuDining"
+                        target="_blank" rel="noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </Box>
+                </CardFooter>
+            </Card>
+            <Card className="card compiler" maxW='sm'>
+                <CardBody>
+                    <Image
+                    src='under_construction.png'
+                    alt='StuDining parent page'
+                    borderRadius='lg'
+                    />
+                    <Stack mt='6' spacing='3'>
+                    <Text className="headers" size='md'>Restricted-C Compiler</Text>
+                    <Text>
+                        Compiler
+                        <br></br>
+                    </Text>
+                    </Stack>
+                </CardBody>
+                <Divider />
+                <CardFooter>
+                    <Box className="gh-icons">
+                        <a href="https://github.com/pollyliu1"
                         target="_blank" rel="noreferrer">
                             <i class="fab fa-github"></i>
                         </a>
@@ -121,6 +171,31 @@ function Projects() {
                     </Box>
                 </CardFooter>
             </Card>
+            <Card className="card empowrher" maxW='sm'>
+                <CardBody>
+                    <Image
+                    src='EmpowrHER.png'
+                    alt='empowrher homepage'
+                    borderRadius='lg'
+                    />
+                    <Stack mt='6' spacing='3'>
+                    <Text className="headers" size='md'>EmpowrHER</Text>
+                    <Text>
+                        Skill trading web app for women in STEM
+                        <br></br>
+                    </Text>
+                    </Stack>
+                </CardBody>
+                <Divider />
+                <CardFooter>
+                    <Box className="gh-icons">
+                        <a href="https://github.com/pollyliu1/EmpowrHER"
+                        target="_blank" rel="noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </Box>
+                </CardFooter>
+            </Card>
             <Card className="card weatherwear" maxW='sm'>
                 <CardBody>
                     <Image
@@ -140,31 +215,6 @@ function Projects() {
                 <CardFooter>
                     <Box className="gh-icons">
                         <a href="https://github.com/pollyliu1/WeatherWear"
-                        target="_blank" rel="noreferrer">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </Box>
-                </CardFooter>
-            </Card>
-            <Card className="card zooveniers" maxW='sm'>
-                <CardBody>
-                    <Image
-                    src='under_construction.png'
-                    alt='under construction image'
-                    borderRadius='lg'
-                    />
-                    <Stack mt='6' spacing='3'>
-                    <Text className="headers" size='md'>Zooveniers</Text>
-                    <Text>
-                        Zookeeper game made with Unity (WIP)
-                        <br></br>
-                    </Text>
-                    </Stack>
-                </CardBody>
-                <Divider />
-                <CardFooter>
-                    <Box className="gh-icons">
-                        <a href="https://github.com/pollyliu1/Zooveniers"
                         target="_blank" rel="noreferrer">
                             <i class="fab fa-github"></i>
                         </a>

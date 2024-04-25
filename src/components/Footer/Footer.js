@@ -33,7 +33,7 @@ function Footer() {
                 </motion.div>
             </Flex>
             <Box className="copyright">
-                Copyright &copy; 2023 Polly Liu. All Rights Reserved
+                Copyright &copy; 2024 Polly Liu. All Rights Reserved
             </Box>
         </Box>
     )
