@@ -99,8 +99,8 @@ function Projects() {
             <Card className="card compiler" maxW='sm'>
                 <CardBody>
                     <Image
-                    src='under_construction.png'
-                    alt='StuDining parent page'
+                    src='c-compiler.png'
+                    alt='C logo'
                     borderRadius='lg'
                     />
                     <Stack mt='6' spacing='3'>
