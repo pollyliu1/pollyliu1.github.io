@@ -55,7 +55,7 @@ function Home() {
                                 cursorClassName: 'cursorSize',
                                 strings:[
                                     "Software Engineer",
-                                    "Video Game Enthusiast",
+                                    "Hardware Enthusiast",
                                     "All things tech <3"
                                 ]}}>
                             </Typewriter>
